@@ -1,0 +1,16 @@
+<footer class="bg-secondary dark:bg-gray-900 text-on-secondary dark:text-gray-400 py-8 md:py-12">
+    <div class="container mx-auto px-6 text-center">
+        <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            <p class="text-sm">&copy; <span id="current-year"></span> Vatsal Kumar Garodia. All rights reserved.</p>
+            <div class="flex space-x-6">
+                <a href="https://www.linkedin.com/in/vatsal-kr-garodia" class="hover:text-primary dark:hover:text-primary transition duration-300" aria-label="LinkedIn"><i class="fa-brands fa-linkedin text-xl"></i></a>
+                <a href="https://x.com/garodia_v_k" class="hover:text-primary dark:hover:text-primary transition duration-300" aria-label="Twitter"><i class="fa-brands fa-x-twitter text-xl"></i></a>
+<!--                 <a href="#" class="hover:text-primary dark:hover:text-primary transition duration-300" aria-label="GitHub"><i class="fa-brands fa-github text-xl"></i></a> -->
+            </div>
+        </div>
+    </div>
+    <script>
+        // Update current year dynamically
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</footer>

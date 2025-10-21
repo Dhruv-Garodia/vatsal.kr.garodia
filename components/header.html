@@ -1,0 +1,48 @@
+<header id="main-header" class="bg-surface dark:bg-surface-dark shadow-md sticky top-0 z-50 transition-colors duration-300">
+    <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+        <!-- Logo/Brand -->
+        <a href="#home" class="flex items-center space-x-2 text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary transition-colors duration-300">
+            <i class="fa-solid fa-chart-area text-primary text-3xl"></i>
+            <span class="text-2xl font-bold">Vatsal K. Garodia</span>
+            <span class="text-sm text-secondary dark:text-secondary-dark hidden sm:block">(MS Finance, CFA)</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <div class="hidden md:flex items-center space-x-8">
+            <a href="#home" class="nav-link text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium transition-colors duration-300">Home</a>
+            <a href="#about" class="nav-link text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium transition-colors duration-300">About</a>
+            <a href="#education" class="nav-link text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium transition-colors duration-300">Education</a>
+            <a href="#expertise" class="nav-link text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium transition-colors duration-300">Expertise</a>
+            <a href="#projects" class="nav-link text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium transition-colors duration-300">Projects</a>
+            <a href="#contact" class="nav-link text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium transition-colors duration-300">Contact</a>
+            <!-- Dark Mode Toggle -->
+            <button id="theme-toggle" class="p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-300" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon text-lg dark:hidden"></i>
+                <i class="fa-solid fa-sun text-lg hidden dark:inline-block"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex items-center">
+            <button id="theme-toggle" class="p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors duration-300 mr-4" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon text-lg dark:hidden"></i>
+                <i class="fa-solid fa-sun text-lg hidden dark:inline-block"></i>
+            </button>
+            <button id="mobile-menu-button" class="text-on-surface dark:text-on-surface-dark focus:outline-none focus:ring-2 focus:ring-primary rounded-md p-2" aria-label="Open mobile menu">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div id="mobile-menu" class="hidden md:hidden bg-surface dark:bg-surface-dark py-4 shadow-inner transition-all duration-300 ease-in-out">
+        <div class="flex flex-col items-center space-y-4">
+            <a href="#home" class="nav-link block text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium text-lg py-2 transition-colors duration-300">Home</a>
+            <a href="#about" class="nav-link block text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium text-lg py-2 transition-colors duration-300">About</a>
+            <a href="#education" class="nav-link block text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium text-lg py-2 transition-colors duration-300">Education</a>
+            <a href="#expertise" class="nav-link block text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium text-lg py-2 transition-colors duration-300">Expertise</a>
+            <a href="#projects" class="nav-link block text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium text-lg py-2 transition-colors duration-300">Projects</a>
+            <a href="#contact" class="nav-link block text-on-surface dark:text-on-surface-dark hover:text-primary dark:hover:text-primary font-medium text-lg py-2 transition-colors duration-300">Contact</a>
+        </div>
+    </div>
+</header>
